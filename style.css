@@ -45,32 +45,103 @@ nav {
 
 /*home container*/
 
-.bodyImage {
+/*.bodyImage {
   background-image: url("/Vintage-Car-club/images/black-classic-car.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
   color: white;
-}
-.bodyText {
+}*/
+
+.bodyTag {
+  display: flex;
+  flex-direction: row;
   position: relative;
+  flex-basis: 50%;
+}
+.bodyImage1 {
+  display: block;
+  height: 100%;
+  width: 990px;
+}
+
+/* CSS */
+
+.bodyText {
   background-color: black;
   color: white;
 }
 .bodyText1 {
-  position: absolute;
-  top: 100px;
-  left: 200px;
   font-family: "Kanit", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
+  padding-left: 60px;
+  width: 290px;
+  padding-top: 110px;
+}
+.bodyText2 {
+  font-family: "Kanit", sans-serif;
+
+  padding-left: 60px;
+
+  padding-top: 110px;
+}
+.bodyTag hr {
+  border: none;
+  border-top: 1px solid red;
+  width: 50%;
+
+  margin: auto;
+}
+.bodyBtn {
+  margin-left: 55px;
+  margin-top: 20px;
+
+  background-color: red;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  margin-left: 60px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-@media only screen and (max-width: 788px) {
-  .bodyImage {
-    background-size: 100% 100%;
-  }
+.bodyBtn:hover {
+  background-color: pink;
+}
+
+hr {
+  border: none;
+  border: 1px solid yellowgreen;
+}
+
+@media only screen and (max-width: 800px) {
   .car {
     width: 200px;
+  }
+  .bodyImage1 {
+    width: 100%;
+    height: 500px;
   }
 }
 
