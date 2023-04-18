@@ -27,7 +27,7 @@ nav {
   text-decoration: none;
 }
 .car {
-  width: 35%;
+  width: 25%;
   resize: none;
 }
 .information li {
@@ -431,11 +431,12 @@ h3 {
   transform: translateY(8rem);
 }
 
-/*driver */
+/* 
 .drivers-header {
   text-align: center;
   text-shadow: 0px 1px gray;
   padding: 20px;
+  font-family: "Kanit", sans-serif;
 }
 
 .drivers-body {
@@ -446,14 +447,22 @@ h3 {
 .drivers-body h2 {
   padding: 20px;
 }
+
 .col-1 {
   display: flex;
   flex-basis: 50%;
   min-width: 300px;
   padding: 20px;
+  font-family: "Kanit", sans-serif;
+  border: 2px solid #ff7f50; /* Set the border style and color 
+  border-radius: 10px; /* Round the corners of the border 
+  padding: 10px; /* Add padding around the content 
+  background-color: #f8f8f8; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+  margin: 20px;
 }
 .col-1 img {
-  width: 350px;
+  width: 300px;
   border-radius: 20px;
   padding: 20px;
 }
@@ -462,6 +471,7 @@ h3 {
 }
 .content-text {
   padding: 10px;
+  font-size: 12px;
 }
 .content-text b {
   font-size: 20px;
@@ -471,4 +481,40 @@ h3 {
 }
 .drivers-footer {
   padding-left: 20px;
+}*/
+.image-grid {
+  display: grid; /* Use CSS grid for the image grid layout */
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* Define the number of columns and their width */
+  gap: 10px; /* Add gap between the image items */
+}
+.image-item {
+  overflow: hidden;
+  position: relative;
+  padding: 30px;
+
+  margin: 20px;
+}
+.image-item img {
+  width: 250px;
+  height: auto;
+  border: 2px solid #ff7f50;
+
+  background-color: #f8f8f8;
+}
+.text-overlay {
+  width: 100%;
+}
+.text-overlay h2,
+h4 {
+  font-family: "Kanit", sans-serif;
+}
+.text-overlay p {
+  color: black;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 20px;
 }
