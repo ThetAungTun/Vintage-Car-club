@@ -364,9 +364,17 @@ h3 {
   cursor: pointer;
 }
 /* register */
-
+.head {
+  font-family: "Kanit", sans-serif;
+}
+.head h1 {
+  text-align: center;
+  padding: 20px;
+  color: #fff3e2;
+}
 .col-text {
   padding: 20px;
+  font-family: "Kanit", sans-serif;
 }
 .col-text img {
   display: block;
@@ -376,6 +384,7 @@ h3 {
 }
 .col-text h2 {
   text-align: center;
+
   padding: 20px;
 }
 .col-text p {
@@ -390,15 +399,30 @@ h3 {
   padding: 10px;
   display: inline-block;
   width: 200px;
-  text-align: right;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
 }
 .col-4-btn {
-  text-align: center;
-  border-radius: 10px;
   padding: 10px;
+  margin-left: 200px;
 }
 .col-4-btn button {
   padding: 10px;
+  background: whitesmoke;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: darkblue;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
 }
 .col-4-info {
   padding: 20px;
@@ -406,11 +430,26 @@ h3 {
 .col-4-btn {
   background-color: #191825;
 }
+.col-5 {
+  padding: 10px;
+}
 .col-5 input {
-  padding: 7px;
+  padding: 10px;
+  margin-bottom: 2px;
   display: inline-block;
   border: none;
   background: #f1f1f1;
+  font-size: 14px;
+  border: none;
+
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.col-5 input:focus {
+  outline: none;
+  box-shadow: 0 2px 8px blue;
 }
 .col-4 {
   background-color: #191825;
@@ -422,15 +461,23 @@ h3 {
 }
 
 .section {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid greenyellow;
   transition: transform 1s, opacity 1s;
 }
-
-.section--hidden {
-  opacity: 0;
-  transform: translateY(8rem);
+.checkbox {
+  float: left;
+  margin-top: 4px;
+}
+.col-5 p {
+  padding-left: 20px;
+  margin-left: 10px;
+  margin-top: auto;
+  font-size: 17px;
 }
 
+span {
+  color: #05bfdb;
+}
 /*drivers*/
 
 .drivers-header {
