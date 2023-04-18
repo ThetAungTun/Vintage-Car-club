@@ -546,12 +546,6 @@ h4 {
   outline: 0;
   padding: 12px 14px;
   text-align: center;
-  text-rendering: geometricprecision;
-  text-transform: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
 }
 
 .button-24:hover,
@@ -566,5 +560,21 @@ h4 {
 }
 .drivers-btn {
   text-align: center;
+  padding: 20px;
+}
+
+.racingHeader {
+  display: flex;
+  flex-wrap: wrap;
+}
+.racing p {
+  font-size: 20px;
+}
+.racing img {
+  width: 400px;
+}
+.racing {
+  flex-basis: 50%;
+  min-width: 300px;
   padding: 20px;
 }
