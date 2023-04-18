@@ -484,7 +484,10 @@ span {
   text-align: center;
   font-family: "Kanit", sans-serif;
   padding-top: 10px;
-  color: royalblue;
+  color: #282a3a;
+}
+.drivers-header h2 {
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif !important;
 }
 .image-grid {
   display: grid; /* Use CSS grid for the image grid layout */
@@ -528,7 +531,6 @@ h4 {
   padding-top: 20px;
 }
 
-/* CSS */
 .button-24 {
   background: #ff4742;
   border: 1px solid #ff4742;
@@ -552,7 +554,7 @@ h4 {
 .button-24:active {
   background-color: initial;
   background-position: 0 0;
-  color: #ff4742;
+  color: red;
 }
 
 .button-24:active {
@@ -562,13 +564,31 @@ h4 {
   text-align: center;
   padding: 20px;
 }
+.drivers-footer {
+  background-image: url(images/green-slate.jpg);
+  color: white;
+  font-weight: bolder;
+}
+.drivers-footer h1,
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.drivers-footer hr {
+  border: none;
+  border-top: 5px solid #282a3a;
+  width: 10%;
+
+  margin: auto;
+}
 
 .racingHeader {
   display: flex;
   flex-wrap: wrap;
 }
 .racing p {
-  font-size: 20px;
+  font-size: 18px;
 }
 .racing img {
   width: 400px;
@@ -577,4 +597,23 @@ h4 {
   flex-basis: 50%;
   min-width: 300px;
   padding: 20px;
+}
+.racing button {
+  margin: 20px;
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
 }
