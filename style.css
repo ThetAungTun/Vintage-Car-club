@@ -362,32 +362,69 @@ footer h1 {
   font-size: 12px;
   text-align: left;
   font-weight: 300;
+  font-family: "Kanit", sans-serif;
 }
 .about-hr {
   border: 1px solid black;
 }
 /* faq */
+
 .faq-title {
   text-align: center;
+  /* Set your background image */
+  background-image: url(images/5559852.jpg);
+  width: 100%;
+  height: 300px;
 }
-.faq-title h1,
+.faq-title h2 {
+  color: white;
+  padding-top: 40px;
+  font-size: 40px;
+}
+.faq-title h3 {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.faq-title h2,
 h3 {
-  padding: 10px;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  color: white;
+  font-weight: bold;
 }
 .faq-title input {
-  width: 130px;
+  width: 35%;
   box-sizing: border-box;
   border: 3px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
   background-color: whitesmoke;
   padding: 6px;
+  margin: 10px;
+  text-align: center;
 }
-.faq-title input[type="text"]:focus {
-  width: 50%;
+.faq-title button {
+  padding: 10px;
+  background: red;
+  border: 2px solid red;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+
+  outline: 0;
+  padding: 8px 12px;
+  text-align: center;
 }
+
 .faq-body {
   padding: 20px;
+  font-family: "Kanit", sans-serif;
 }
 .col-3 {
   padding: 20px;
@@ -395,7 +432,6 @@ h3 {
 .col-3 p {
   padding: 10px;
   font-weight: bold;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .faq-footer img {
   width: 150px;
