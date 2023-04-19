@@ -241,32 +241,67 @@ footer h1 {
 /*contact */
 .contact {
   display: flex;
-  justify-content: center;
+
+  flex-wrap: wrap;
+  font-family: "Kanit", sans-serif;
+  background-color: #0b2447;
+  color: white;
+  padding-right: 40px;
 }
 .contact-info {
-  font-size: 25px;
-  text-align: center;
+  flex-basis: 50%;
+  font-size: 30px;
+  text-align: left;
+  min-width: 400px;
 }
 .contact-name {
-  font-size: 25px;
-  text-align: center;
+  color: black;
+  font-size: 15px;
+  text-align: left;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 20px;
+  margin-right: 70px;
+  margin-left: 30px;
 }
 .contact-text {
-  padding: 20px;
+  padding-left: 100px;
+  padding-top: 50px;
 }
+
 .contact-name h4 {
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: 100;
 }
 .contact-name input {
-  width: 60%;
-  height: 30px;
-  border-radius: 10px;
+  width: 90%;
+  height: 35px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 1px 3px 0px grey;
 }
 .contact-btn {
-  padding: 20px;
+  padding-top: 20px;
 }
-.contact-btn btn {
-  width: 20px;
+.contact-btn button {
+  background-color: blue;
+  border: 1px solid rgb(66, 103, 178);
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+
+  outline: 0;
+  padding: 5px 15px;
+  text-align: center;
 }
 .contact-agree {
   font-size: 15px;
@@ -281,6 +316,21 @@ footer h1 {
   background-color: #191825;
   color: whitesmoke;
   padding: 20px;
+}
+.fa-solid {
+  padding-right: 20px;
+}
+.contact-logo {
+  padding-top: 80px;
+  text-align: center;
+}
+.contact-logo i {
+  padding: 20px;
+}
+
+.contact-text span {
+  color: white;
+  font-size: 20px;
 }
 
 /*about */
