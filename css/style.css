@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+
+.nav {
+  padding: 40px;
+}
+
+.dropDown-Content {
+  display: flex;
+  flex-direction: column;
+  font-family: none;
+  font-weight: 100;
+}
+.menu {
+  text-align: right;
+  margin-right: 200px;
+  background-image: url();
+}
+.menu a {
+  padding-left: 20px;
+}
+.dropDown-desktop {
+  align-items: center;
+  justify-content: center;
+}
+.dropDown i {
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .dropDown-desktop {
+    display: none;
+  }
+  .header {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .dropDown i {
+    display: none;
+  }
+}
+
+/*horizontal line */
+hr {
+  width: 80%;
+  margin: auto;
+  border: solid red 1px;
+}
+
+/*home */
+.home {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/Vintage-Car-club/Image/Home.jpg);
+  background-size: cover;
+
+  width: 100%;
+}

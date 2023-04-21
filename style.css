@@ -5,16 +5,17 @@
 
 .navbar {
   display: flex;
+  flex-wrap: wrap;
 
   padding: 10px;
   background-color: black;
 }
-nav {
+.lo nav {
   margin: 10px;
   padding-left: 100px;
 }
 .list li {
-  float: left;
+  float: right;
   list-style: none;
   padding: 20px;
   color: whitesmoke;
@@ -66,7 +67,7 @@ nav {
 .bodyImage1 {
   display: block;
   height: 100%;
-  width: 990px;
+  width: 100%;
 }
 
 /* CSS */

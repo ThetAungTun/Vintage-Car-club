@@ -10,43 +10,42 @@
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3e6e14e85d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="navbar">
-      <div class="logo">
-        <img
-          class="car"
-          src="images/Black and Brown Retro Automotive Logo.png"
-        />
+    <nav class="nav">
+      <div class="dropDown">
+        <i class="fa-solid fa-bars" id="menu-icon">
+          <div class="dropDown-Content hidden" id="menu-content">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Drivers</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </i>
+        <div class="header">Classic Car Club</div>
+        <div class="menu">
+          <a class="dropDown-desktop" href="#">Home</a>
+          <a class="dropDown-desktop" href="#">About</a>
+          <a class="dropDown-desktop" href="#">Drivers</a>
+          <a class="dropDown-desktop" href="#">Contact Us</a>
+        </div>
       </div>
-      <div class="list">
-        <nav>
-          <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="drivers.html">Drivers</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="Faq.html">Q & A</a></li>
-            <li><a href="Register.html">Register</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
+    </nav>
     <hr />
-
-    <div class="bodyTag">
-      <div class="bodyText">
-        <h1 class="bodyText2">Mercedes Benz</h1>
-        <hr />
-        <p class="bodyText1">Since 1930, Salford has put the world on wheels</p>
-        <button class="bodyBtn">Show More</button>
-      </div>
-      <div class="bodyImage">
-        <img class="bodyImage1" src="images/black-classic-car.jpg" alt="" />
-      </div>
-    </div>
   </body>
+  <div class="home">
+    <div class="homeText">
+      <p>
+        The wind is not <br />
+        even close to us
+      </p>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
 </html>
