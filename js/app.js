@@ -1,18 +1,19 @@
-const menuIcon = document.getElementById("menu-icon");
+/*const menuIcon = document.getElementById("menu-icon");
 const menuList = document.getElementById("menu-content");
 menuIcon.addEventListener("click", function () {
   menuList.classList.toggle("hidden");
   console.log(menuList);
-});
+});*/
 
 const activePage = window.location.pathname;
-//console.log(activePage);
+console.log(activePage);
 
 const links = document.querySelectorAll("nav a");
 //console.log(links);
 
 links.forEach((link) => {
   if (link.href.includes(activePage)) {
+    console.log(link);
     link.classList.add("active");
   }
 });
