@@ -5,6 +5,9 @@
 :root {
   --font-family: "Ysabeau", sans-serif;
 }
+body {
+  background-color: #ecf2ff;
+}
 .dropDown-Content {
   display: flex;
   flex-direction: column;
@@ -25,6 +28,10 @@
 .desktop {
   text-align: right;
 }
+
+.active {
+  color: red;
+}
 .menu a {
   padding-left: 20px;
 }
@@ -34,9 +41,6 @@
 }
 .hidden {
   display: none;
-}
-a:hover {
-  color: red;
 }
 
 @media (max-width: 768px) {
@@ -169,4 +173,40 @@ hr {
   text-align: center;
   text-decoration: none;
   vertical-align: baseline;
+}
+
+/*gallery */
+.gallery,
+.gallery1,
+.gallery2 {
+  padding-top: 20px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.border {
+  border: solid 1px black;
+  padding: 20px;
+  background-color: white;
+}
+.image-container,
+.image-container1,
+.image-container2 {
+  font-size: 20px;
+  font-weight: bold;
+  flex: 1;
+  min-width: 300px;
+  margin: 0 10px;
+}
+.image-container img,
+.image-container1 img,
+.image-container2 img {
+  width: 100%;
+  height: auto;
+}
+
+.lazy {
+  filter: blur(20px);
+  transition: filter 0.8s ease;
 }
