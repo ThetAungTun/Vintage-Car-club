@@ -2,6 +2,9 @@
   margin: 0;
 }
 
+:root {
+  --font-family: "Ysabeau", sans-serif;
+}
 .dropDown-Content {
   display: flex;
   flex-direction: column;
@@ -12,7 +15,10 @@
   text-decoration: none;
   font-size: 20px;
 }
-
+.fa-solid {
+  padding-left: 20px;
+  padding-top: 20px;
+}
 .menu {
   margin-right: 200px;
 }
@@ -71,7 +77,6 @@ hr {
 
 .main {
   position: relative;
-
   height: 80vh;
   width: 100%;
   background-size: cover;
@@ -84,6 +89,7 @@ hr {
 .main::before {
   content: "";
   background-image: url(/Vintage-Car-club/Image/Redcar.jpg);
+  filter: blur(5px);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -115,4 +121,52 @@ hr {
 }
 .desktop {
   position: relative;
+}
+
+/*main body */
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ecf2ff;
+  color: red;
+  height: 200px;
+  padding: 20px;
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+.text {
+  flex-basis: 50%;
+  min-width: 400px;
+  padding-top: 20px;
+  font-size: 18px;
+}
+.text h2 {
+  text-align: center;
+}
+.button {
+  margin-top: 10px;
+  background-color: red;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
 }
