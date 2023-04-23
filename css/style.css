@@ -286,6 +286,75 @@ span {
   vertical-align: baseline;
 }
 .footer {
+  position: relative;
   text-align: center;
   font-size: 20px;
+  padding-top: 50px;
+}
+.footer p {
+  padding-top: 10px;
+}
+.footer i {
+  padding-top: 20px;
+}
+.slider {
+  padding-top: 20px;
+  max-width: 100rem;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+.slider-header {
+  padding-top: 20px;
+  text-align: center;
+  color: red;
+}
+
+.slide {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* THIS creates the animation! */
+  transition: transform 1s;
+  font-family: "Kanit", sans-serif;
+  font-size: 16px;
+}
+
+.slider__btn {
+  position: absolute;
+  top: 30%;
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: inherit;
+  color: #333;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.slider__btn--left {
+  left: 6%;
+}
+
+.slider__btn--right {
+  right: 6%;
+}
+
+.slide-text {
+  width: 60%;
+}
+.slide-span {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: var(--font-family);
+  font-weight: bolder;
 }
