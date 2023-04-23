@@ -78,6 +78,7 @@ nav a:hover {
 /*horizontal line */
 hr {
   width: 80%;
+
   margin: auto;
   border: solid red 1px;
   margin-bottom: 50px;
@@ -98,7 +99,7 @@ hr {
 }
 .main::before {
   content: "";
-  background-image: url(/Vintage-Car-club/Image/home__red.jpg);
+  background-image: url(/Image/Redcar.jpg);
   filter: blur(5px);
   background-size: cover;
   position: absolute;
