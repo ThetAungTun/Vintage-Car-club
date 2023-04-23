@@ -99,7 +99,7 @@ hr {
 }
 .main::before {
   content: "";
-  background-image: url(/Image/Redcar.jpg);
+  background-image: url(../Image/Redcar.jpg);
   filter: blur(5px);
   background-size: cover;
   position: absolute;
@@ -305,6 +305,7 @@ span {
   height: 200px;
   margin: 0 auto;
   position: relative;
+  overflow: hidden;
 }
 .slider-header {
   padding-top: 20px;
