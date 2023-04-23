@@ -98,7 +98,7 @@ hr {
 }
 .main::before {
   content: "";
-  background-image: url(/Vintage-Car-club/Image/Redcar.jpg);
+  background-image: url(/Vintage-Car-club/Image/home__red.jpg);
   filter: blur(5px);
   background-size: cover;
   position: absolute;
