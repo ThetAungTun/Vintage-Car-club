@@ -13,6 +13,13 @@ body {
   flex-direction: column;
   font-family: none;
 }
+.dropDown-Content a,
+i {
+  padding-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
 .dropDown-desktop {
   color: white;
   text-decoration: none;
@@ -77,7 +84,7 @@ nav a:hover {
 
 /*horizontal line */
 hr {
-  width: 80%;
+  width: 95%;
 
   margin: auto;
   border: solid red 1px;
@@ -145,13 +152,17 @@ hr {
 .text {
   flex-basis: 50%;
   min-width: 400px;
-  padding-top: 20px;
+  padding-top: 30px;
   font-size: 18px;
+  text-align: center;
 }
 .text h2 {
   padding-bottom: 20px;
   text-align: center;
   color: hsl(0, 100%, 50%);
+}
+.text button {
+  margin-top: 20px;
 }
 .button {
   margin-top: 10px;
@@ -248,12 +259,15 @@ hr {
 .event-text {
   flex: 1;
   min-width: 300px;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 .event-text p {
   padding-left: 20px;
 }
 .event-text img {
-  width: 80%;
+  width: 85%;
+  border-radius: 10px;
 }
 span {
   color: red;
@@ -360,4 +374,40 @@ span {
   font-size: 16px;
   font-family: var(--font-family);
   font-weight: bolder;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 20px;
+  font-family: var(--font-family);
+  font-weight: bold;
+  background-color: #212a3e;
+  margin-top: 20px;
+}
+.footer_1 {
+  min-width: 300px;
+}
+.footer_1 ul {
+  list-style: none;
+  color: white;
+}
+.footer_header {
+  color: red;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.footer_home {
+  color: white;
+  padding-top: 10px;
+}
+.footer_icon {
+  background-color: #212a3e;
+  font-size: 20px;
+  text-align: center;
+  padding: 50px;
+}
+.footer_icon i {
+  padding-left: 20px;
 }
