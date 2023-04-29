@@ -411,3 +411,42 @@ span {
 .footer_icon i {
   padding-left: 20px;
 }
+
+/* about */
+
+.about_body {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+.about_text {
+  flex: 1;
+  min-width: 300px;
+}
+.about_text h1 {
+  padding-top: 20px;
+}
+.about_text img {
+  width: 100%;
+  height: auto;
+}
+
+.about_text h1 {
+  padding-top: 0px;
+}
+.about_text h1 {
+  padding-top: 50px;
+}
+.about_right {
+  padding-left: 20px;
+}
+.para1,
+.para2 {
+  padding: 20px;
+  background-color: #d3e6ff;
+}
+.para2 {
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
